@@ -1,0 +1,44 @@
+
+### Create a new product
+POST http://localhost:5000/api/product
+Content-Type: application/json
+
+{
+  "name": "Test Product",
+  "price": 99.99 ,
+  "image": "ihfrs"
+}
+### Create a new product
+POST http://localhost:5000/api/product
+Content-Type: application/json
+
+{
+  "name": "Tfeeygf2",
+  "price": 10.99 ,
+  "image": "rhha"
+}
+
+### Delete a product
+DELETE  http://localhost:5000/api/product/68
+Content-Type: application/json
+
+{
+ 
+}
+
+### Get all products
+GET  http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+ 
+}
+
+### Update a Product 
+PUT http://localhost:5000/api/product/683ce7a4dbc14fd6867d8cd9
+Content-Type: application/json
+
+{
+  "name": "berad",
+  "price": 78.9
+}
